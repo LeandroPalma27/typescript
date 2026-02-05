@@ -1,9 +1,8 @@
 "use strict";
-(function () {
-    var nada = undefined;
-    var isActive = true;
-    // strictNullChecks
-    // let isActive2: boolean = undefined;
+(() => {
+    let nada = undefined;
+    let isActive = true;
     console.log(nada);
     console.log(isActive);
 })();
+//# sourceMappingURL=null_undefined.js.map

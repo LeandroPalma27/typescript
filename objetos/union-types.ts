@@ -8,6 +8,7 @@
 
   let customVariable: string | Hero = "Leandro";
   console.log(typeof customVariable);
+  //xddddddd
 
   customVariable = {
     name: "Barry Allen",

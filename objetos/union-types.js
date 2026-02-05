@@ -1,6 +1,6 @@
 "use strict";
-(function () {
-    var customVariable = "Leandro";
+(() => {
+    let customVariable = "Leandro";
     console.log(typeof customVariable);
     customVariable = {
         name: "Barry Allen",
@@ -9,3 +9,4 @@
     };
     console.log(typeof customVariable);
 })();
+//# sourceMappingURL=union-types.js.map

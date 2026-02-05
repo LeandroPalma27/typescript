@@ -1,15 +1,10 @@
 "use strict";
-(function () {
-    var addNumbers = function (a, b) { return a + b; };
-    var greet = function (name) { return "Hola ".concat(name, "!"); };
-    var saveTheWorld = function () { return "El mundo esta salvado!"; };
-    var myFunction;
-    //! myFunction = 10;
-    //! console.log(myFunction);
-    //* myFunction = addNumbers;
-    //* console.log(myFunction(1, 2));
-    //? myFunction = greet;
-    //? console.log(myFunction("Leandro"));
+(() => {
+    const addNumbers = (a, b) => a + b;
+    const greet = (name) => `Hola ${name}!`;
+    const saveTheWorld = () => "El mundo esta salvado!";
+    let myFunction;
     myFunction = saveTheWorld;
     console.log(myFunction());
 })();
+//# sourceMappingURL=function-type.js.map

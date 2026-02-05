@@ -1,7 +1,8 @@
 "use strict";
-(function () {
-    var isSuperman = true;
-    var isBatman = false;
+(() => {
+    let isSuperman = true;
+    let isBatman = false;
     isBatman = true && false;
-    console.log({ isBatman: isBatman });
+    console.log({ isBatman });
 })();
+//# sourceMappingURL=booleans.js.map

@@ -1,11 +1,8 @@
 "use strict";
-(function () {
-    var fullName = function (firstName) {
-        var restNames = [];
-        for (var _i = 1; _i < arguments.length; _i++) {
-            restNames[_i - 1] = arguments[_i];
-        }
-        return "".concat(firstName, " ").concat(restNames.join(" "));
+(() => {
+    const fullName = (firstName, ...restNames) => {
+        return `${firstName} ${restNames.join(" ")}`;
     };
     console.log(fullName("Leandro", "Palma", "Alvarado", "Martin"));
 })();
+//# sourceMappingURL=args-rest.js.map

@@ -1,12 +1,13 @@
 "use strict";
-(function () {
-    var hero = 'SpiderMan';
+(() => {
+    const hero = 'SpiderMan';
     function returnName() {
         return hero;
     }
-    var activarMensaje = function () {
+    const activarMensaje = () => {
         return 'hola';
     };
     console.log(typeof activarMensaje);
-    var mensaje = activarMensaje();
+    const mensaje = activarMensaje();
 })();
+//# sourceMappingURL=function.js.map

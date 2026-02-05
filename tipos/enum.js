@@ -1,6 +1,6 @@
 "use strict";
-(function () {
-    var AudioLevel;
+(() => {
+    let AudioLevel;
     (function (AudioLevel) {
         AudioLevel[AudioLevel["one"] = 1] = "one";
         AudioLevel[AudioLevel["two"] = 2] = "two";
@@ -13,9 +13,10 @@
         AudioLevel[AudioLevel["nine"] = 9] = "nine";
         AudioLevel[AudioLevel["ten"] = 10] = "ten";
     })(AudioLevel || (AudioLevel = {}));
-    var currentAudioLevel = AudioLevel.ten;
-    var currentAudioLevel2 = 10;
+    let currentAudioLevel = AudioLevel.ten;
+    let currentAudioLevel2 = 10;
     console.log(currentAudioLevel);
     console.log(currentAudioLevel2);
     console.log(AudioLevel);
 })();
+//# sourceMappingURL=enum.js.map

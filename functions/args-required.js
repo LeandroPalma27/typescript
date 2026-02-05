@@ -1,8 +1,9 @@
 "use strict";
-(function () {
-    var fullName = function (firstName, lastName) {
-        return "".concat(firstName, ", ").concat(lastName !== null && lastName !== void 0 ? lastName : 'Stark');
+(() => {
+    const fullName = (firstName, lastName) => {
+        return `${firstName}, ${lastName ?? 'Stark'}`;
     };
-    var name = fullName("Leandro");
-    console.log({ name: name });
+    const name = fullName("Leandro");
+    console.log({ name });
 })();
+//# sourceMappingURL=args-required.js.map
