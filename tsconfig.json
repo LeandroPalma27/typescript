@@ -7,9 +7,10 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "commonjs",
+    "module": "amd",
     "target": "esnext",
     "sourceMap": true,
+    "outFile": "./main.js",
     "removeComments": true,
     // For nodejs:
     // "lib": ["esnext"],
